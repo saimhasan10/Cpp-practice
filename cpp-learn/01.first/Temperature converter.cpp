@@ -1,4 +1,4 @@
-Tempeture conversions
+Temperature converter
 
 #include<iostream>
 using namespace std;
