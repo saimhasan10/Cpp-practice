@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1678103758 source:e:\edu\1 2\cpp\practice\oop\1.class-object\projects\first\myfirstproject\main.cpp
+	<iostream>
+	"myfirstclass.h"
+
+1678103709 e:\edu\1 2\cpp\practice\oop\1.class-object\projects\first\myfirstproject\myfirstclass.h
+	"myfirstclass.h"
+
+1678103775 source:e:\edu\1 2\cpp\practice\oop\1.class-object\projects\first\myfirstproject\myfirstclass.cpp
+	"myfirstclass.h"
+	<iostream>
+
