@@ -1,40 +1,37 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-//abstract function because here we use PVF
+// abstract function because here we use PVF
 class mobileUser
 {
 public:
-
     void call()
     {
-        cout<<"hey!!"<<endl;
+        cout << "hey!!" << endl;
     }
 
-    //pure virtual function
-    virtual void sendMessage()=0;
+    // pure virtual function
+    virtual void sendMessage() = 0;
 };
 
-
-class saim:public mobileUser
+class saim : public mobileUser
 {
 public:
     // must have to use the PVF
     void sendMessage()
     {
-        cout<<"This is saim bro!!!"<<endl;
+        cout << "This is saim bro!!!" << endl;
     }
 };
 
-class nahid: public mobileUser
+class nahid : public mobileUser
 {
 public:
     void sendMessage()
     {
-        cout<<"This is Nahid bro!!"<<endl;
+        cout << "This is Nahid bro!!" << endl;
     }
 };
-
 
 int main()
 {
@@ -43,10 +40,10 @@ int main()
     saim s;
     nahid n;
 
-    m=&s;
+    m = &s;
     m->call();
     m->sendMessage();
 
-    m=&n;
+    m = &n;
     m->sendMessage();
 }
